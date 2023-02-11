@@ -1,0 +1,8 @@
+ROBOT_R
+VARS a, one, flag
+PROCS
+
+setFlag [ |c , d| if: canMoveInDir: 1, around then: [moveInDir: 1, 
+	west] else: [nop:]]]
+
+[setFlag: a, one]
