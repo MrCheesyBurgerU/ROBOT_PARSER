@@ -8,6 +8,9 @@ sys.setrecursionlimit(100000*10)
 def main():
 
     print()
+    print("Note: If your file contains procedures without parameters, please add a space between the parameter bars (| |),")
+    print("otherwise the program will fail")
+    print()
     
     user_input = input("Please enter the relative path of the file: ")
 
