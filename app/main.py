@@ -11,8 +11,10 @@ def main():
     print("Note: If your file contains procedures without parameters, please add a space between the parameter bars (| |),")
     print("otherwise the program will fail")
     print()
+    print("Please put the files to check in the input folder")
+    print()
     
-    user_input = input("Please enter the relative path of the file: ")
+    user_input = input("Enter the relative path of the file: ")
 
     assert os.path.exists(user_input), "I did not find the file at, "+str(user_input)
 
