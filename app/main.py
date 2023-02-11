@@ -11,7 +11,7 @@ def main():
     print("Note: If your file contains procedures without parameters, please add a space between the parameter bars (| |),")
     print("otherwise the program will fail")
     print()
-    print("Please put the files to check in the input folder")
+    print("Please put the files to check in the test folder")
     print()
     
     user_input = input("Enter the relative path of the file: ")
